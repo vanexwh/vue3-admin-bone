@@ -2,8 +2,8 @@
  * @Author: vanexwh@163.com
  * @Date: 2022-07-26 09:08:22
  * @LastEditors: Do not edit
- * @LastEditTime: 2022-10-11 17:54:33
- * @FilePath: \twy_web_admin\src\App.vue
+ * @LastEditTime: 2022-10-21 11:01:34
+ * @FilePath: \vue3-admin-bone\src\App.vue
  * @Description: 
 -->
 <script setup lang="ts">
@@ -18,7 +18,7 @@ const route = useRoute();
 
 watch(() => route.path, (path) => {
   if (path) {
-    document.title = route.meta?.title + ' - 泰无忧中后台管理系统';
+    document.title = route.meta?.title + ' - V3-A-B';
   }
 }, {
   deep: true
