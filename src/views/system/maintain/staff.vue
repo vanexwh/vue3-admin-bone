@@ -1,21 +1,21 @@
 <!--
  * @Author: vanexwh@163.com
- * @Date: 2022-10-11 17:12:48
+ * @Date: 2022-10-21 10:30:30
  * @LastEditors: Do not edit
- * @LastEditTime: 2022-10-11 17:13:03
- * @FilePath: \twy_web_admin\src\views\system\maintain\staff.vue
+ * @LastEditTime: 2022-10-21 11:07:08
+ * @FilePath: \vue3-admin-bone\src\views\system\maintain\staff.vue
  * @Description: 
 -->
-<script setup lang="ts" name="staffMaintain">
-import { onMounted } from 'vue';
-import { useRouter } from 'vue-router';
 
-const router = useRouter();
-onMounted(() => {});
+<script setup lang="ts" name="">
+
 </script>
 
 <template>
-	<div>staff maintain</div>
+<div>
+	staff
+</div>
 </template>
 
-<style lang="less" scoped></style>
+<style scoped lang="scss">
+</style>
