@@ -1,0 +1,9 @@
+#git commit ignore
+
+.vscode
+node_modules/
+unpackage/
+/dist/
+dist.zip
+dist.rar
+.idea/

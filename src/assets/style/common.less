@@ -1,0 +1,80 @@
+/* 颜色值
+------------------------------- */
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-success {
+  color: var(--color-success);
+}
+
+.color-warning {
+  color: var(--color-warning);
+}
+
+.color-danger {
+  color: var(--color-danger);
+}
+
+.color-info {
+  color: var(--color-info);
+}
+
+.color-text {
+  color: var(--color-text);
+}
+
+/* 外边距、内边距全局样式
+------------------------------- */
+.custom-back-gauge(40);
+.custom-back-gauge (@num,@i:1) when (@i =< @num) {
+  .mt@{i} {
+    margin-top: @i+0px;
+  }
+  .mr@{i} {
+    margin-right: @i+0px;
+  }
+  .mb@{i} {
+    margin-bottom: @i+0px;
+  }
+  .ml@{i} {
+    margin-left: @i+0px;
+  }
+  .pt@{i} {
+    padding-top: @i+0px;
+  }
+  .pr@{i} {
+    padding-right: @i+0px;
+  }
+  .pb@{i} {
+    padding-bottom: @i+0px;
+  }
+  .pl@{i} {
+    padding-left: @i+0px;
+  }
+  .custom-back-gauge(@num, (@i+1));
+}
+
+/* 字体全局样式
+------------------------------- */
+.custom-font-size(64);
+.custom-font-size(@num,@i:12) when (@i =< @num) {
+  .font@{i} {
+    font-size: @i+0px !important;
+  }
+  .custom-font-size(@num, (@i+1));
+}
+
+/* 多行文本溢出全局样式
+------------------------------- */
+.custom-overflow(3);
+.custom-overflow(@line, @i:1) when (@i =< @line) {
+  .overflow@{i} {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @i;
+    overflow: hidden;
+  }
+  .custom-overflow(@line, (@i+1));
+}

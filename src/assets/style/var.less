@@ -1,0 +1,129 @@
+/* 定义初始颜色
+------------------------------- */
+@--color-primary: #374f74;
+@--color-whites: #ffffff;
+@--color-primary-light-1: mix(@--color-whites, @--color-primary, 10%);
+@--color-primary-light-2: mix(@--color-whites, @--color-primary, 20%);
+@--color-primary-light-3: mix(@--color-whites, @--color-primary, 30%);
+@--color-primary-light-4: mix(@--color-whites, @--color-primary, 40%);
+@--color-primary-light-5: mix(@--color-whites, @--color-primary, 50%);
+@--color-primary-light-6: mix(@--color-whites, @--color-primary, 60%);
+@--color-primary-light-7: mix(@--color-whites, @--color-primary, 70%);
+@--color-primary-light-8: mix(@--color-whites, @--color-primary, 80%);
+@--color-primary-light-9: mix(@--color-whites, @--color-primary, 90%);
+@--color-success: #00c777;
+@--color-success-light-1: mix(@--color-whites, @--color-success, 10%);
+@--color-success-light-2: mix(@--color-whites, @--color-success, 20%);
+@--color-success-light-3: mix(@--color-whites, @--color-success, 30%);
+@--color-success-light-4: mix(@--color-whites, @--color-success, 40%);
+@--color-success-light-5: mix(@--color-whites, @--color-success, 50%);
+@--color-success-light-6: mix(@--color-whites, @--color-success, 60%);
+@--color-success-light-7: mix(@--color-whites, @--color-success, 70%);
+@--color-success-light-8: mix(@--color-whites, @--color-success, 80%);
+@--color-success-light-9: mix(@--color-whites, @--color-success, 90%);
+@--color-info: #394357;
+@--color-info-light-1: mix(@--color-whites, @--color-info, 10%);
+@--color-info-light-2: mix(@--color-whites, @--color-info, 20%);
+@--color-info-light-3: mix(@--color-whites, @--color-info, 30%);
+@--color-info-light-4: mix(@--color-whites, @--color-info, 40%);
+@--color-info-light-5: mix(@--color-whites, @--color-info, 50%);
+@--color-info-light-6: mix(@--color-whites, @--color-info, 60%);
+@--color-info-light-7: mix(@--color-whites, @--color-info, 70%);
+@--color-info-light-8: mix(@--color-whites, @--color-info, 80%);
+@--color-info-light-9: mix(@--color-whites, @--color-info, 90%);
+@--color-warning: #faad14;
+@--color-warning-light-1: mix(@--color-whites, @--color-warning, 10%);
+@--color-warning-light-2: mix(@--color-whites, @--color-warning, 20%);
+@--color-warning-light-3: mix(@--color-whites, @--color-warning, 30%);
+@--color-warning-light-4: mix(@--color-whites, @--color-warning, 40%);
+@--color-warning-light-5: mix(@--color-whites, @--color-warning, 50%);
+@--color-warning-light-6: mix(@--color-whites, @--color-warning, 60%);
+@--color-warning-light-7: mix(@--color-whites, @--color-warning, 70%);
+@--color-warning-light-8: mix(@--color-whites, @--color-warning, 80%);
+@--color-warning-light-9: mix(@--color-whites, @--color-warning, 90%);
+@--color-danger: #fa4d4d;
+@--color-danger-light-1: mix(@--color-whites, @--color-danger, 10%);
+@--color-danger-light-2: mix(@--color-whites, @--color-danger, 20%);
+@--color-danger-light-3: mix(@--color-whites, @--color-danger, 30%);
+@--color-danger-light-4: mix(@--color-whites, @--color-danger, 40%);
+@--color-danger-light-5: mix(@--color-whites, @--color-danger, 50%);
+@--color-danger-light-6: mix(@--color-whites, @--color-danger, 60%);
+@--color-danger-light-7: mix(@--color-whites, @--color-danger, 70%);
+@--color-danger-light-8: mix(@--color-whites, @--color-danger, 80%);
+@--color-danger-light-9: mix(@--color-whites, @--color-danger, 90%);
+@--color-darkness: #090f1c;
+@--color-darkness-light-1: mix(@--color-whites, @--color-darkness, 10%);
+@--color-darkness-light-2: mix(@--color-whites, @--color-darkness, 20%);
+@--color-darkness-light-3: mix(@--color-whites, @--color-darkness, 30%);
+@--color-darkness-light-4: mix(@--color-whites, @--color-darkness, 40%);
+
+/* 自定义动画持续时间
+------------------------------- */
+@--transition-time: 0.3s;
+
+/* 自定义阴影
+------------------------------- */
+@--shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.16);
+
+/* 赋值给:root
+------------------------------- */
+:root {
+	--color-primary: @--color-primary;
+	--color-whites: @--color-whites;
+	--color-primary-light-1: @--color-primary-light-1;
+	--color-primary-light-2: @--color-primary-light-2;
+	--color-primary-light-3: @--color-primary-light-3;
+	--color-primary-light-4: @--color-primary-light-4;
+	--color-primary-light-5: @--color-primary-light-5;
+	--color-primary-light-6: @--color-primary-light-6;
+	--color-primary-light-7: @--color-primary-light-7;
+	--color-primary-light-8: @--color-primary-light-8;
+	--color-primary-light-9: @--color-primary-light-9;
+	--color-success: @--color-success;
+	--color-success-light-1: @--color-success-light-1;
+	--color-success-light-2: @--color-success-light-2;
+	--color-success-light-3: @--color-success-light-3;
+	--color-success-light-4: @--color-success-light-4;
+	--color-success-light-5: @--color-success-light-5;
+	--color-success-light-6: @--color-success-light-6;
+	--color-success-light-7: @--color-success-light-7;
+	--color-success-light-8: @--color-success-light-8;
+	--color-success-light-9: @--color-success-light-9;
+	--color-info: @--color-info;
+	--color-info-light-1: @--color-info-light-1;
+	--color-info-light-2: @--color-info-light-2;
+	--color-info-light-3: @--color-info-light-3;
+	--color-info-light-4: @--color-info-light-4;
+	--color-info-light-5: @--color-info-light-5;
+	--color-info-light-6: @--color-info-light-6;
+	--color-info-light-7: @--color-info-light-7;
+	--color-info-light-8: @--color-info-light-8;
+	--color-info-light-9: @--color-info-light-9;
+	--color-warning: @--color-warning;
+	--color-warning-light-1: @--color-warning-light-1;
+	--color-warning-light-2: @--color-warning-light-2;
+	--color-warning-light-3: @--color-warning-light-3;
+	--color-warning-light-4: @--color-warning-light-4;
+	--color-warning-light-5: @--color-warning-light-5;
+	--color-warning-light-6: @--color-warning-light-6;
+	--color-warning-light-7: @--color-warning-light-7;
+	--color-warning-light-8: @--color-warning-light-8;
+	--color-warning-light-9: @--color-warning-light-9;
+	--color-danger: @--color-danger;
+	--color-danger-light-1: @--color-danger-light-1;
+	--color-danger-light-2: @--color-danger-light-2;
+	--color-danger-light-3: @--color-danger-light-3;
+	--color-danger-light-4: @--color-danger-light-4;
+	--color-danger-light-5: @--color-danger-light-5;
+	--color-danger-light-6: @--color-danger-light-6;
+	--color-danger-light-7: @--color-danger-light-7;
+	--color-danger-light-8: @--color-danger-light-8;
+	--color-danger-light-9: @--color-danger-light-9;
+	--color-darkness: @--color-darkness;
+	--color-darkness-light-1: @--color-darkness-light-1;
+	--color-darkness-light-2: @--color-darkness-light-2;
+	--color-darkness-light-3: @--color-darkness-light-3;
+	--color-darkness-light-4: @--color-darkness-light-4;
+	--transition: @--transition-time;
+	--shadow: @--shadow;
+}
